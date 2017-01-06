@@ -14,14 +14,14 @@
     <!-- TODO customize transformation rules 
          syntax recommendation http://www.w3.org/TR/xslt 
     -->
-    <xsl:template match="bookstore1">
+    <xsl:template match="bookstore">
         <html>
             <head>
                 <title>newstylesheet</title>
             </head>
-            <body>
-                <table>
-                    <tr>
+            <body><center>
+                <table border="1" cellpadding="10">
+                    <tr bgcolor="grey">
                         <th>Title</th>
                         <th>Author</th>
                         <th>Year</th>
@@ -29,7 +29,7 @@
                     </tr>
                     <xsl:apply-templates/>
                 </table>
-            </body>
+            </center></body>
         </html>
      </xsl:template>
      <xsl:template match="book">

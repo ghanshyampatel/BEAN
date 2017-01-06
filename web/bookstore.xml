@@ -7,7 +7,7 @@ and open the template in the editor.
 
 
 
-    <bookstore1>
+    <bookstore>
 	<book category="cooking">
 	<title lang="en">Everyday</title>
 	<author>balguru</author>
@@ -36,6 +36,6 @@ and open the template in the editor.
 	<price>250</price>
 	</book>
 
-</bookstore1>
+</bookstore>
     
 

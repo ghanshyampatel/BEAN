@@ -18,6 +18,11 @@
         </jsp:useBean>
         
         <form>
+            <%
+                RequestDispatcher=request.getRequestDispatcher("details.jsp");
+                
+              %>              
+            
             <h3>student data</h3>
             Name :<jsp:getProperty name="student" property="name"/><br>
             DOB : <jsp:getProperty name="student" property="dob"/><br>
